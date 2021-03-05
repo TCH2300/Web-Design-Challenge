@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+ 
+  <!-----------------------Req meta tags - per Bootstrap------------------->
+    <meta charset="utf-8">
+    <meta name ="viewpoint" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-----------------------CSS from bootstrap wesbite---------------------->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    
+    <title>LatWind</title>
+    </head>
+  <!-----------------------Nav and Dropdown---------------------------------------->
+    <body>
+        <div class="container">
+        <div class="navbar">
+        <div class="title">
+            <nav class="navbar navbar-expand-md navbar-light bg-light">
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav">
+                        <a href="./index.html" class="nav-item nav-link active">Return Home</a>
+                    </div>
+                </div>
+            </nav>
+          </div>
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Plots and Data
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="./LatCloudy.html">Lat vs. Cloudiness</a>
+            <a class="dropdown-item" href="./LatHumid.html">Lat vs. Humidity</a>
+            <a class="dropdown-item" href="./LatTemp.html">Lat vs. Max Temp</a>
+            <a class="dropdown-item disabled" href="./LatWind.html">Lat vs. Windspeed</a>
+            <a class="dropdown-item" href="./Data.html">Data</a>
+            </div>
+          </div>
+      </div>
+        </div>
+    <!-----------------------Analysis------------------------------------------>
+    <div class="container">
+    <h1>Latitude vs. Windspeed</h1>
+    <br>
+    <div id="analysis">
+        <h2>Analysis</h2>
+        <p>The chart below shows latitude vs. wind speed of all 562 cities included in the dataset. The following observations can be made:
+          <ul> 
+            <li>There are very few cities experiencing wind speeds greater than 20mph.</li>
+            <li>Wind speed appears to be evenly dispersed over all latitudes.</li>
+          </ul> 
+        
+    </div>
+
+    <div id="image">
+        <img src="images/Lat_vs_Windspeed.png" width="80%" height="55%" alt="Lat Wind Plot">
+    </div>
+</div>
+  <!---------------------JS from Bootstrap website------------------------->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    </body>
+
+</html>
