@@ -7,7 +7,7 @@ In building this dashboard, I created individual pages for each plot and a means
 
 ### Website Overview
 
-The website consists of 6 pages total, including:
+The website consists of the following:
 
 * A landing page containing:
   * An explanation of the project.
